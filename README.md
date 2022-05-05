@@ -1,4 +1,4 @@
-# laundry_monitor
+# Laundry Monitor
 
 ### Install
 
