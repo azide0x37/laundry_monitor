@@ -5,13 +5,13 @@
 `brew install terminal-notifier`
 
 Note: if you don't have the Samantha voice installed, either install it in `macos>preferences>accessability>spoken content`, or just remove the '-v' and 'Samantha' args from lines 21 and 29 to use the default voice. 
-'''
+
 
 ### Usage
 Call on command line with device IP as argument. 
 
-#### To get the device IP
-'''
+### To get the device IP
+`
 ❯ kasa
 No host name given, trying discovery..
 Discovering devices on 255.255.255.255 for 3 seconds
@@ -31,9 +31,12 @@ Discovering devices on 255.255.255.255 for 3 seconds
         On since: 2022-04-18 10:34:46
 
         == Current State ==
-        <EmeterStatus power=0.768329 voltage=121.20441 current=0.031014 total=1.098>'''
+        <EmeterStatus power=0.768329 voltage=121.20441 current=0.031014 total=1.098>`
 
-'''
+### Command Output
+Power usage figure updates live approximately twice per second
+
+`
 ❯ python main.py 192.168.1.xx
 Current power usage is 1.32 watts...
-'''
+`
